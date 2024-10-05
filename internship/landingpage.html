@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flying Wheel</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+ 
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            color: #333;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+        }
+
+        header h1 {
+            margin-bottom: 10px;
+        }
+
+        header .links {
+            display: flex;
+        }
+
+        header .links a {
+            margin-right: 10px;
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 5px 10px;
+            border: 2px solid #fff;
+            border-radius: 5px;
+        }
+
+        
+        .profile {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px; 
+        }
+
+        .profile img {
+            width: 40px; 
+            height: 40px; 
+            border-radius: 50%; 
+            margin-right: 10px;
+        }
+
+        .profile-details p {
+            margin: 0;
+            color: #fff; 
+            font-size: 14px; 
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        section {
+            margin-bottom: 20px;
+        }
+        
+        .bikes {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .bike {
+            flex: 0 0 45%; 
+            background-color: #fff;
+            border: 1px solid #ccc;
+            padding: 20px;
+            margin-bottom: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .bike img {
+            width: 100%;
+            max-width: 200px; 
+            height: auto;
+            margin-bottom: 10px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="profile">
+        <img src="pic.jpg" alt="Profile Picture">
+        <div class="profile-details">
+        <p>Name:Rachel Green</p>
+        <p>Email:green@gmail.com</p>
+            
+</div>
+    </div>
+    <h1>Flying Wheel</h1>
+    
+    <div class="links">
+        <a href="login.html">Login</a>
+        <a href="offers.html">Offers</a>
+        <a href="products.html">Products</a>
+        <a href="typesbikes.html">Types</a>
+    </div>
+</header>
+
+<main>
+    <section class="featured">
+        <h2>Featured Bikes</h2>
+        <div class="bikes">
+            <div class="bike">
+                <img src="bike1.jpg" alt="Bike 1">
+                <div><p>Keep calm and pedal on.</p></div>
+            </div>
+            <div class="bike">
+                <img src="bike2.jpg" alt="Bike 2">
+                <div><p>Premium bicycles for all ages</p></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about">
+        <h2>ABOUT US</h2>
+        <p>Welcome to Cycle Shop, where we provide high-quality bikes for all your cycling needs.</p> 
+        <p>We are super happy to provide you with all the services.</p>
+        <p>Our mission is to provide high-quality bicycles, accessories, and exceptional customer service to help you enjoy every ride to the fullest.</p>
+        <p>With a wide range of bikes for all ages and skill levels, along with expert advice and maintenance services, we're here to support you every step of the way on your cycling journey.</p>
+        <p>Visit us today and let's pedal towards adventure together!</p>
+        </section>
+
+    <section class="contact">
+        <h2>CONTACT US</h2>
+        <p>For Booking, Contact to the below number or gmail.</p>
+        <p>lkr@gmail.com</p>
+        <p>8975642369</p>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; Cycle Shop</p>
+</footer>
+
+</body>
+</html>
